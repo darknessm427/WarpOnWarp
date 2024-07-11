@@ -198,18 +198,18 @@ fi
 
 
 
-    # برای هر سطر در result.csv دستورات را اجرا کنید
+    
     for ((i=2; i<=$num_lines; i++)); do
-        # اطلاعات مورد نیاز از هر سطر را دریافت کنید
+        
         local line=$(sed -n "${i}p" ./result.csv)
         local endpoint=$(echo "$line" | awk -F',' '{print $1}')
         local ip=$(echo "$endpoint" | awk -F':' '{print $1}')
         local port=$(echo "$endpoint" | awk -F':' '{print $2}')
 
-# ترکیب رشته و متغیرها در یک متغیر دیگر
+
 new_json='{
       "type": "wireguard",
-      "tag": "Warp-IR'"$i"'",
+      "tag": "m-IR'"$i"'",
       "server": "'"$ip"'",
       "server_port": '"$port"',
 
@@ -226,8 +226,8 @@ new_json='{
     },
     {
       "type": "wireguard",
-      "tag": "Warp-Main'"$i"'",
-      "detour": "Warp-IR'"$i"'",
+      "tag": "warp wow'"$i"'",
+      "detour": "Warp § IR'"$i"'",
       "server": "'"$ip"'",
       "server_port": '"$port"',
       
