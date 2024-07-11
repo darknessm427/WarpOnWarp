@@ -226,10 +226,11 @@ new_json='{
     },
     {
       "type": "wireguard",
-      "tag": "warp wow'"$i"'",
-      "detour": "Warp  IR'"$i"'",
+      "tag": "Warp-Main'"$i"'",
+      "detour": "Warp-IR'"$i"'",
       "server": "'"$ip"'",
       "server_port": '"$port"',
+
       
       "local_address": [
           "172.16.0.2/32",
