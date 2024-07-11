@@ -227,7 +227,7 @@ new_json='{
     {
       "type": "wireguard",
       "tag": "ÐΛɌ₭ᑎΞ𐒡𐒡-Main'"$i"'",
-      "detour": "@darkness_427-IR'"$i"'",
+      "detour": "𓄂𓆃-IR'"$i"'",
       "server": "'"$ip"'",
       "server_port": '"$port"',
 
