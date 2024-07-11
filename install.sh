@@ -226,7 +226,7 @@ new_json='{
     },
     {
       "type": "wireguard",
-      "tag": "Warp-Main'"$i"'",
+      "tag": "ÐΛɌ₭ᑎΞ𐒡𐒡-Main'"$i"'",
       "detour": "Warp-IR'"$i"'",
       "server": "'"$ip"'",
       "server_port": '"$port"',
